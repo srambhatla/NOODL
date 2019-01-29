@@ -2,6 +2,8 @@
 Neurally plausible alternating Optimization-based Online Dictionary Learning
 
 ## MATLAB
+### Standalone NOODL
+### Comparing NOODL with Related Techniques
 
 ## TensorFlow
 
