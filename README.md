@@ -1,6 +1,7 @@
 ![NOODL](https://github.com/srambhatla/NOODL/blob/master/logo.png "NOODL")
 
-Neurally plausible alternating Optimization-based Online Dictionary Learning
+Neurally plausible alternating Optimization-based Online Dictionary Learning 
+
 ![View Paper](https://openreview.net/forum?id=HJeu43ActQ)
 
 ## MATLAB
