@@ -2,7 +2,7 @@
 
 Neurally plausible alternating Optimization-based Online Dictionary Learning 
 
-![View Paper](https://openreview.net/forum?id=HJeu43ActQ)
+[View Paper](https://openreview.net/forum?id=HJeu43ActQ)
 
 ## MATLAB
 Use the `main.m` file as your gateway to all MATLAB-based implementations. It provides the data generation as well as the use-cases of different implementations (detailed below).
