@@ -1,7 +1,10 @@
 % Function to find the best sparse approximation using FISTA or stochastic
 % version of ISTA depending upon how big the task is. This also scans
 % across the range of hyperparameters to find the best approximation. 
-
+%
+% Sirisha Rambhatla, Feb 2016
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% File: main.m
 function [X_fi_best, i, t_f] = best_fista_result(A, Y_s, X_fi_init, X_o_fi, tol, i_max)
 tic
 err = [];
@@ -17,7 +20,7 @@ display('In Fista, will take some time...')
 
     % Decide whether to run stochastic-ISTA or FISTA
     if (size(Y_s,2)>2000)
-        X_fi_est = FISTA_with_init_stochastic(A, Y_s, lam, X_fi_init, tol);
+        X_fi_est = ISTA_with_init_stochastic(A, Y_s, lam, X_fi_init, tol);
     else
         X_fi_est = FISTA_with_init(A, Y_s, lam, X_fi_init, tol);
     end

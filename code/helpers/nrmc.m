@@ -1,6 +1,7 @@
 function [A_n] = nrmc(A)
 % Alternative to normc for Matlab 2014b and above. 
-
+%
+% Sirisha Rambhatla, Nov 2014
 A_n = zeros(size(A));
 
     for i = 1:size(A, 2)

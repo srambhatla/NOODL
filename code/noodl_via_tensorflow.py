@@ -1,3 +1,6 @@
+# NOODL: Neurally Plausible alternating Optimization-based Online Dictionary Learning 
+# Sirisha Rambhatla, March 2018
+
 import tensorflow as tf
 import numpy as np
 import matplotlib

@@ -1,5 +1,4 @@
 % NOODL: Neurally Plausible alternating Optimization-based Online Dictionary Learning 
-
 % Sirisha Rambhatla, March 2018
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Function: NOODL_dist.m

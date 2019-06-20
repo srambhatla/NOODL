@@ -3,6 +3,8 @@ function [A] = FISTA_with_init(D,Y,lam, Xinit, tol)
 % to solve the subproblem
 %
 % X_est = argmin_X ||D*A-Y||_F^2  + lam*||A||_1
+%
+% Sirisha Rambhatla, Nov 2014
 
 n = size(D,2);
 m = size(Y,2);

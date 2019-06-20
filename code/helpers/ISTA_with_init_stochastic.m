@@ -1,9 +1,9 @@
-function [A] = FISTA_with_init_stochastic(D, Y, lam, Xinit, tol)
+function [A] = ISTA_with_init_stochastic(D, Y, lam, Xinit, tol)
 % Implementation of Stochastic ISTA procedure with warm start
 % to solve the subproblem
 % X_est = argmin_X ||D*A-Y||_F^2  + lam*||A||_1
-% (please pardon the somewhat misleading name of the file!)
-
+%
+% Sirisha Rambhatla, Oct 2018
 n = size(D,2);
 m = size(Y,2);
 
